@@ -1,4 +1,5 @@
 llm.docx
 ~$*
 .vitepress/cache
+.vitepress/dist
 package-lock.json
