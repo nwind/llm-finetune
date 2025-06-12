@@ -14,7 +14,7 @@ export default defineConfig({
     initialValue: 'light'
   },
   themeConfig: {
-    logo: './images/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [{text: '首页', link: '/'}],
     sidebar: [

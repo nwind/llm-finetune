@@ -7,7 +7,7 @@ hero:
   text: ''
   tagline: '大模型基础知识、如何微调及部署'
   image:
-    src: ./images/logo.png
+    src: /logo.png
     alt: logo
 
   actions:
