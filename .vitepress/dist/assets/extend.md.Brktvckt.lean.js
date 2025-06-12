@@ -1,0 +1,1 @@
+import{_ as r,c as a,o as t,ag as n}from"./chunks/framework.C1nslR49.js";const p=JSON.parse('{"title":"拓展阅读","description":"","frontmatter":{},"headers":[],"relativePath":"extend.md","filePath":"extend.md"}'),l={name:"extend.md"};function o(i,e,s,f,h,_){return t(),a("div",null,e[0]||(e[0]=[n("",3)]))}const d=r(l,[["render",o]]);export{p as __pageData,d as default};

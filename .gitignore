@@ -1,0 +1,4 @@
+llm.docx
+~$*
+.vitepress/cache
+package-lock.json

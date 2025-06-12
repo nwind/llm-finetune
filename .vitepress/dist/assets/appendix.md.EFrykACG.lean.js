@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as l,ag as t}from"./chunks/framework.C1nslR49.js";const F=JSON.parse('{"title":"附录","description":"","frontmatter":{},"headers":[],"relativePath":"appendix.md","filePath":"appendix.md"}'),p={name:"appendix.md"};function n(e,s,h,d,o,k){return l(),a("div",null,s[0]||(s[0]=[t("",11)]))}const c=i(p,[["render",n]]);export{F as __pageData,c as default};

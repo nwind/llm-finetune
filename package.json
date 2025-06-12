@@ -1,0 +1,25 @@
+{
+  "name": "fine-tune",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vitepress dev",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "prettier": "^3.5.3",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "latex.css": "^1.13.0",
+    "marked": "^15.0.12",
+    "marked-katex-extension": "^5.1.4"
+  }
+}
