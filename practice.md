@@ -28,7 +28,7 @@ peft_config = LoraConfig(
     lora_alpha=16,  # 缩放比
     inference_mode=False,  # 关闭推理模式
     target_modules="all-linear",  # 训练哪些模块，推荐全部线性层
-    modules_to_save=["lm_head", "embed_token"],  # 默认不训练这两个模块，但加上可以提升效果
+    modules_to_save=["lm_head", "embed_tokens"],  # 默认不训练这两个模块，但加上可以提升效果
     task_type="CAUSAL_LM",  # 任务类型，目前大模型都是因果语言模型
 )
 

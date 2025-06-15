@@ -335,8 +335,8 @@ def expected_score(rating1: float, rating2: float) -> float:
     return 1.0 / (1 + math.pow(10, (rating1 - rating2) / 400.0))
 
 def elo_rating(rating_a: float, rating_b: float, outcome: float, K=32):
-    ea = expected_score(rating_b, rating_a)
-    eb = expected_score(rating_a, rating_b)
+    ea = expected_score(rating_a, rating_b)
+    eb = expected_score(rating_b, rating_a)
     rating_a = rating_a + K * (outcome - ea)
     rating_b = rating_b + K * ((1 - outcome) - eb)
     return rating_a, rating_b
