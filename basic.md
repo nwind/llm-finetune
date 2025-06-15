@@ -244,10 +244,10 @@ import torch
 import math
 # 隐藏层的维度，这里为了方便显示用得比较小
 # 如果是 Llama 3 8B，这里的值为 4096
-d_model = 6
+d_model = 4
 
 # 输入是维度为文本长度及词嵌入的矩阵
-t = 4
+t = 2
 x = torch.randn(t, d_model)
 
 # 这里为了演示随机生成权重矩阵，这个矩阵的值是通过训练得到的
