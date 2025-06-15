@@ -160,7 +160,7 @@ for _ in range(epoch):
 反向传播计算的基本原理是链式法则，来自 `George F. Simmons` 的直观解释是，如果汽车的速度是自行车的 2 倍，自行车的速度是走路的 4 倍，那么汽车的速度是走路的 `2 × 4 = 8` 倍。因此，我们可以将复合函数的导数拆分为各个函数导数的乘积。
 
 $$
-\frac{\partial z}{\partial x} = \frac{\partial z}{\partial x} \cdot \frac{\partial x}{\partial y}
+\frac{\partial z}{\partial y} = \frac{\partial z}{\partial x} \cdot \frac{\partial x}{\partial y}
 $$
 
 如果输入是向量，求导则是一个雅可比矩阵，因为我们需要计算每个输出对应输入的偏导数：
